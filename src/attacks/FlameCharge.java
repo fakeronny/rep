@@ -9,7 +9,7 @@ public class FlameCharge extends PhysicalMove {
 
 	@Override
 	public void applySelfEffects(Pokemon self){
-		self.setMod(Stat.SPEED, +1);
+		self.setMod(Stat.SPEED, 1);
 
 	}
 
