@@ -14,8 +14,8 @@ public class ShellSmash extends StatusMove {
 	public void applySelfEffects(Pokemon self){
 		self.setMod(Stat.DEFENSE, -1);
 		self.setMod(Stat.SPECIAL_DEFENSE, -1);
-		self.setMod(Stat.ATTACK, +2);//aaa
-		self.setMod(Stat.SPECIAL_ATTACK , +2);
+		self.setMod(Stat.ATTACK, 2);//aaa
+		self.setMod(Stat.SPECIAL_ATTACK , 2);
 
 	}
 
