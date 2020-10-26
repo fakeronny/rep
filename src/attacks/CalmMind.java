@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.*;
 public class CalmMind extends StatusMove {
 
 	@Override
-	public boolean checkAccuracy(Pokemon att, Pokemon def){ return true;}
+	public boolean checkAccuracy(Pokemon att, Pokemon def){ return true; }
 
 	public CalmMind(){
 		super(Type.PSYCHIC, 0, 1);
@@ -13,9 +13,9 @@ public class CalmMind extends StatusMove {
 	@Override
 	public void applySelfEffects(Pokemon self){
 
-		self.setMod(Stat.SPECIAL_DEFENSE, +1);
+		self.setMod(Stat.SPECIAL_DEFENSE, 1);
 
-		self.setMod(Stat.SPECIAL_ATTACK, +1);
+		self.setMod(Stat.SPECIAL_ATTACK, 1);
 
 	}
 
